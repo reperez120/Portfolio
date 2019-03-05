@@ -61,12 +61,12 @@ button {
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 25px;
 }
 
 @media screen and (min-width: 680px) {
     h1{
-    font-size: 50px;  
+    font-size: 35px;  
     margin-top: 50px;
     margin-bottom: 50px;
     }
@@ -86,7 +86,7 @@ height: 300px;
 }  
 
 p {
-    font-size: 20px;
+    font-size: 16px;
     margin-left: 50px;
     margin-right: 50px;
     padding-right: 50px;
@@ -95,7 +95,7 @@ p {
 
 @media screen and (min-width: 680px) {
     p {
-        font-size: 30px;
+        font-size: 20px;
         text-align: left;
     } 
 }
@@ -134,7 +134,6 @@ li {
 #email, #github, #indeed, #linkedin {
     height: 50px;
     width: 50px;
-   font-size: 9px;
     display: flex;
     justify-content: center;
 }
@@ -154,12 +153,11 @@ li {
 }  
 
 h2 {
-  font-size: 35px;
+  font-size: 20px;
 }
 
 @media screen and (min-width: 680px) {
   h2 {
-    font-size: 40px; 
+    font-size: 25px; 
   }
 }  
-
