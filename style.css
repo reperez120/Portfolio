@@ -1,22 +1,23 @@
 title {
-  font-size: 0px;
+    font-size: 0px;
 }
 
 * {
-  font-family: "Avenir Next", sans-serif;
-  color: #8c8c8c;
-  font-weight: normal;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-left: 40px;
-  margin-right: 40px;
+    font-family: "Avenir Next",
+    sans-serif; 
+    color: #8C8C8C;
+    font-weight: normal;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
 .btn-group {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 
 @media screen and (min-width: 680px) {
@@ -28,144 +29,137 @@ title {
 
 .group-one {
   display: flex;
-  flex-direction: row;
+ flex-direction: row;
 }
 
 .group-two {
-  display: flex;
-  flex-direction: row;
+display: flex;
+ flex-direction: row;
 }
 
 button {
-  background-color: #d8d8d8;
-  border-radius: 5px;
-  height: 35px;
-  width: 91px;
-  font-size: 15px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 10px;
-  margin-bottom: 10px;
+    background-color: #D8D8D8; 
+    border-radius: 5px; 
+    height: 35px;
+    width: 91px;
+    font-size: 15px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 @media screen and (min-width: 680px) {
-  button {
+button {
     height: 50px;
     width: 130px;
     font-size: 20px;
     margin-left: 60px;
     margin-right: 60px;
-  }
+    }
 }
 
 h1 {
-  font-size: 25px;
+  font-size: 40px;
 }
 
 @media screen and (min-width: 680px) {
-  h1 {
-    font-size: 35px;
+    h1{
+    font-size: 50px;  
     margin-top: 50px;
     margin-bottom: 50px;
-  }
+    }
 }
 
 #LeafImage {
-  height: 200px;
+  height: 200px;  
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 @media screen and (min-width: 680px) {
-  #LeafImage {
-    height: 300px;
+#LeafImage { 
+height: 300px;  
   }
-}
+}  
 
 p {
-  font-size: 16px;
-   margin-left: 50px;
-   margin-right: 50px;
-   padding-right: 50px;
-   padding-left: 50px; 
-}
-
-@media screen and (min-width: 680px) {
-  p {
     font-size: 20px;
-    text-align: left;
-  }
-}
-
-footer {
-  margin-bottom: 5px;
-  font-size: 12px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-right: 50px;
+    padding-left: 50px; 
 }
 
 @media screen and (min-width: 680px) {
-  footer {
+    p {
+        font-size: 30px;
+        text-align: left;
+    } 
+}
+
+@media screen and (min-width: 680px) {
+    footer {
     margin-top: 60px;
     margin-bottom: 5px;
     font-size: 15px;
-  }
+    }
 }
 
 ul {
-  font-size: 16px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+     align-items: center;
 }
 
 @media screen and (min-width: 680px) {
   ul {
     font-size: 30px;
   }
-}
+} 
 
 li {
-  margin-bottom: 20px;
-}
+    margin-bottom: 20px;   
+  }
 
 @media screen and (min-width: 680px) {
-  li {
-    margin-bottom: 50px;
+li {
+    margin-bottom: 50px;   
   }
 }
 
-#email,
-#github,
-#indeed,
-#linkedin {
-  height: 50px;
-  width: 50px;
-  font-size: 9px;
-  display: flex;
-  justify-content: center;
+#email, #github, #indeed, #linkedin {
+    height: 50px;
+    width: 50px;
+   font-size: 9px;
+    display: flex;
+    justify-content: center;
 }
 
 #HardDaysImage {
-  height: 300px;
-  display: flex;
-  justify-content: center;
-  margin-top: 30px;
-  margin-bottom: 30px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 @media screen and (min-width: 680px) {
   #HardDaysImage {
-    height: 400px;
+     height: 400px;
   }
-}
+}  
 
 h2 {
-  font-size: 20px;
+  font-size: 35px;
 }
 
 @media screen and (min-width: 680px) {
   h2 {
-    font-size: 25px;
+    font-size: 40px; 
   }
-}
+}  
+
